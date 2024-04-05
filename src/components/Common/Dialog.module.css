@@ -1,0 +1,13 @@
+.badgeImage {
+  height: 70px;
+  width: 65px;
+  margin: auto;
+}
+
+.dialogBox {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}

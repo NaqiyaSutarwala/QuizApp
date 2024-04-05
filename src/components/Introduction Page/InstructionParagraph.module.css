@@ -1,0 +1,22 @@
+.paragraph {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  color: #696f79;
+}
+
+.instruction {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 34px;
+  display: flex;
+  align-items: center;
+  color: #696f79;
+  margin: 10px 0px;
+}

@@ -1,0 +1,18 @@
+.questionMain {
+  font-family: "Poppins";
+}
+
+.questionCount {
+  color: #696f79;
+  font-weight: 800;
+  font-size: 24px;
+  float: right;
+}
+
+.question {
+  margin: auto;
+  color: #696f79;
+  width: 800px;
+  font-size: 22px;
+  line-height: 30px;
+}

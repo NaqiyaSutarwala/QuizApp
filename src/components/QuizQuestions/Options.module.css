@@ -1,0 +1,46 @@
+.optionsHeading {
+  font-family: "Poppins";
+  font-weight: bold;
+  color: #696f79;
+  position: relative;
+  left: 100px;
+  margin-top: 20px;
+  top: 15px;
+  font-size: 22px;
+}
+
+.radio {
+  height: 20px;
+  width: 20px;
+  accent-color: #696f79;
+  margin-right: 10px;
+}
+
+.optionDisplay {
+  margin: 10px;
+  font-weight: normal;
+  width: fit-content;
+}
+
+.correctAnswer {
+  display: inline-block;
+  width: fit-content;
+  margin-left: 30px;
+  color: green;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.wrongAnswer {
+  width: fit-content;
+  font-size: 16px;
+  font-weight: bold;
+  color: red;
+}
+
+.notAnswered {
+  float: right;
+  margin-right: 150px;
+  font-size: 20px;
+  color: red;
+}
