@@ -1,0 +1,11 @@
+.quizTitle {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 50px;
+  display: flex;
+  align-items: center;
+  margin: 15px 0px;
+  color: #696f79;
+}

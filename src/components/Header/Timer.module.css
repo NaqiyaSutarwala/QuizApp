@@ -1,0 +1,13 @@
+.timer {
+  position: absolute;
+  right: 20px;
+  top: 38px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 50px;
+  display: flex;
+  align-items: center;
+  color: #696f79;
+}
