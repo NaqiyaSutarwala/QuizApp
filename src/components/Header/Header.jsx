@@ -7,8 +7,6 @@ import TimerLabel from "./TimerLabel";
 
 const Header = () => {
   const status = useSelector((store) => store.status);
-  console.log(status, "s");
-
   return (
     <>
       <Title />

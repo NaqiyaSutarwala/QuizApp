@@ -4,7 +4,7 @@ const initialState = {
   questionsData: [],
   status: "ready",
   currentIndex: 0,
-  secondsRemaining: 300,
+  secondsRemaining: 5,
   score: 0,
 };
 
@@ -41,8 +41,8 @@ const QuizReducer = createSlice({
       state.secondsRemaining = state.secondsRemaining - 1;
     },
     timerEnded(state, action) {
-      state.status = "review";
       state.currentIndex = 0;
+      state.secondsRemaining = 0;
     },
   },
 });

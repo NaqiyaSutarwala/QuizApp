@@ -6,8 +6,6 @@ const Questions = () => {
   const questionsData = useSelector((state) => state.questionsData);
   const currentIndex = useSelector((state) => state.currentIndex);
 
-  console.log(questionsData);
-
   return (
     <div className={styles.questionMain}>
       <span className={styles.questionCount}>

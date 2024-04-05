@@ -8,8 +8,6 @@ import { useSelector } from "react-redux";
 const MainCard = () => {
   const status = useSelector((state) => state.status);
 
-  console.log(status);
-
   return (
     <div className={styles.mainDiv}>
       <Header />

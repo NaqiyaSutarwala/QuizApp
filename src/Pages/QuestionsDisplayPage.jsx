@@ -1,14 +1,14 @@
 import React, { useState } from "react";
 import Questions from "../components/QuizQuestions/Questions";
 import Options from "../components/QuizQuestions/Options";
-import Button from "../components/Common/Button";
+import Button from "../components/Common/Button/Button";
 import { useDispatch, useSelector } from "react-redux";
 import {
   nextQuestion,
   previousQuestion,
   restartQuiz,
 } from "../Redux/Slices/QuizSlice";
-import AlertDialog from "../components/Common/Dialog";
+import AlertDialog from "../components/Common/Model/Dialog";
 
 const QuestionsDisplayPage = () => {
   const questionsData = useSelector((state) => state.questionsData);
